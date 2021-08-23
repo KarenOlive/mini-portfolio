@@ -1,10 +1,4 @@
-/*
 
-Reflux Template
-
-https://templatemo.com/tm-531-reflux
-
-*/
 
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
@@ -241,6 +235,7 @@ html {
   width: 20%;
   will-change: transform;
   z-index: 9999 !important;
+  margin-left: 2%;
 }
 
 .menu-toggle {
@@ -514,7 +509,7 @@ section.my-work .section-heading {
     border-radius: 20px;
     background-color: #1e1e1e;
     padding: 10px;
-    margin: 10px 5px 10px 0px;
+    margin: 10px 5px 5px 0px;
     width: fit-content;
     text-align: center;
 }
@@ -543,7 +538,8 @@ section.my-work .section-heading {
 
 .isotope-item {
     position: relative;
-    width: 48%;
+    width: fit-content;
+    height: fit-content;
     margin: 1%;
     border-bottom: 2px solid rgba(250,250,250,0.1);
     padding-bottom: 30px;
@@ -553,7 +549,7 @@ section.my-work .section-heading {
 .isotope-item img {
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 80%;
     border-radius: 5px;
 }
@@ -655,6 +651,7 @@ figure.snip1321.hover:after {
 
 section.contact-me {
     border-bottom: none;
+
 }
 
 #contact input {
@@ -778,6 +775,7 @@ section.contact-me {
         transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
         transition: transform 233ms cubic-bezier(0, 0, 0.21, 1);
         transition: transform 233ms cubic-bezier(0, 0, 0.21, 1), -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
+        margin-left: 0;
     }
 
     .menu .image {
