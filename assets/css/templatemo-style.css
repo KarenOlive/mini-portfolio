@@ -131,8 +131,8 @@ html {
 }
 
 .menu .image img {
-    width: 140px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     text-align: center;
 }
@@ -731,7 +731,7 @@ section.contact-me {
         left: 3%;
     }
     .isotope-item {
-        width: 94%;
+        width: 100%;
         margin: 3%;
     }
     .left-image-post img {
